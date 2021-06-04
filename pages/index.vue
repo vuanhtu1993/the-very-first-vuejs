@@ -3,36 +3,24 @@
     <div class="header">
       <div>
         <Logo />
-        <h1 class="title">
+        <h4 class="title">
           <Parent/>
-        </h1>
-        <div class="links">
-          <a
-            href="https://nuxtjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="button--green"
-          >
-            Documentation
-          </a>
-          <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="button--grey"
-          >
-            GitHub
-          </a>
-        </div>
+        </h4>
       </div>
+    </div>
+    <div class="body">
+      <h3>Understanding props and state</h3>
+      <Games/>
     </div>
   </div>
 </template>
 
 <script>
-import Parent from "../components/LearnComponent/Parent";
+import Parent from "../components/learnComponent/Parent";
+import Games from "../components/propsAndState/Games";
 export default {
   components: {
+    Games,
     Parent
   }
 }
@@ -43,7 +31,7 @@ export default {
   margin: 0 auto;
   /*Separate with fullpage header and only full page*/
   /*min-height: 100vh;*/
-  height: 100vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
