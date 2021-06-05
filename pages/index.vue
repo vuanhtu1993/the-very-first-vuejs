@@ -3,15 +3,14 @@
     <div class="header">
       <div>
         <Logo />
-        <h4 class="title">
-          <Parent/>
-        </h4>
       </div>
     </div>
     <div class="body">
       <h3>Dad Jokes</h3>
       <div class="joke">
-        <nuxt-link :to="'/joke'"></nuxt-link>
+        <nuxt-link :to="'/joke'">
+          Click here to navigate to the dad jokes
+        </nuxt-link>
       </div>
       <h3>Understanding props and state</h3>
       <Games/>
@@ -31,11 +30,13 @@ export default {
 </script>
 
 <style>
+.wrapper {
+
+}
 .header {
   margin: 0 auto;
   /*Separate with fullpage header and only full page*/
   /*min-height: 100vh;*/
-  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,7 +75,10 @@ export default {
 
 .joke {
   width: 100%;
-  min-height: 1rem;
+  min-height: 4rem;
   border: 1px dashed gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>

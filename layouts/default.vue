@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <Nuxt />
   </div>
 </template>
@@ -58,5 +58,8 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+.container {
+  padding: 1rem 2rem;
 }
 </style>
