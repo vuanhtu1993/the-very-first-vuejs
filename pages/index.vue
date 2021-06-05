@@ -9,6 +9,10 @@
       </div>
     </div>
     <div class="body">
+      <h3>Dad Jokes</h3>
+      <div class="joke">
+        <nuxt-link :to="'/joke'"></nuxt-link>
+      </div>
       <h3>Understanding props and state</h3>
       <Games/>
     </div>
@@ -66,5 +70,11 @@ export default {
 
 .links {
   padding-top: 15px;
+}
+
+.joke {
+  width: 100%;
+  min-height: 1rem;
+  border: 1px dashed gray;
 }
 </style>
