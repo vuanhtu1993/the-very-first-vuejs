@@ -4,7 +4,10 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
+//@import '@jporto/vue-flex-layout/dist/@jporto/main.scss';
+@import "assets/spaces/main";
+@import "assets/styles/main";
 html {
   font-family:
     'Source Sans Pro',

@@ -1,13 +1,13 @@
 <template>
   <div class="container">
     <div class="wrapper">
-      tictactoe
+      Game TicTacToe
     </div>
     <div class="wrapper">
-      tictactoe
+      Memory
     </div>
     <div class="wrapper">
-      tictactoe
+      Snack
     </div>
   </div>
 </template>

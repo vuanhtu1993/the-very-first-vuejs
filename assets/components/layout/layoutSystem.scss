@@ -1,0 +1,66 @@
+.block {
+  min-height: 4rem;
+}
+
+.orange {
+  background-color: orange;
+  border-radius: 0.2rem;
+}
+
+.blue {
+  background-color: deepskyblue;
+  border-radius: 0.2rem;
+}
+
+.green-big {
+  background-color: green;
+  height: 30vh;
+  border-radius: 0.2rem;
+}
+
+.green-small {
+  background-color: green;
+  display: none;
+  border-radius: 0.2rem;
+}
+
+.pink {
+  background-color: deeppink;
+  border-radius: 0.2rem;
+}
+
+.gray {
+  background-color: gray;
+  min-width: 4rem;
+  border-radius: 0.2rem;
+}
+
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px) {
+
+}
+
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px) {
+  .green-big {
+    display: none;
+  }
+  .green-small {
+    display: block;
+  }
+}
+
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px) {
+
+}
+
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {
+
+}
+
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px) {
+
+}

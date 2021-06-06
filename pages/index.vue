@@ -7,13 +7,25 @@
     </div>
     <div class="body">
       <h3>Dad Jokes</h3>
-      <div class="joke">
+      <div class="item">
         <nuxt-link :to="'/joke'">
           Click here to navigate to the dad jokes
         </nuxt-link>
       </div>
       <h3>Understanding props and state</h3>
       <Games/>
+      <h3>Understanding layout FLEX and GRID</h3>
+      <div class="item">
+        <nuxt-link :to="'/layout'">
+          Click here to navigate to introduction layout
+        </nuxt-link>
+      </div>
+      <div class="item">
+        <nuxt-link :to="'/layout/exercise'">
+          Click here to navigate to exercise 1 (layout)
+        </nuxt-link>
+      </div>
+
     </div>
   </div>
 </template>
@@ -73,7 +85,7 @@ export default {
   padding-top: 15px;
 }
 
-.joke {
+.item {
   width: 100%;
   min-height: 4rem;
   border: 1px dashed gray;
