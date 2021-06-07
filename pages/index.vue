@@ -22,10 +22,15 @@
       </div>
       <div class="item">
         <nuxt-link :to="'/layout/exercise'">
-          Click here to navigate to exercise 1 (layout)
+          Layout using FLEX - Session 1
         </nuxt-link>
       </div>
-
+      <h3>Vuejs Course - Session 2</h3>
+      <div class="item">
+        <nuxt-link :to="'/session2'">
+          Container component - Session 2
+        </nuxt-link>
+      </div>
     </div>
   </div>
 </template>
